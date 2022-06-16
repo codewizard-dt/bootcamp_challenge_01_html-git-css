@@ -150,7 +150,7 @@ footer {
     text-align: center;
 }
 
-/* Footer header */
-footer h2 {
+/* Footer header changed to h4 for sequential header decrease */
+footer h4 {
     font-size: 20px;
 }
