@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* Entire page styles */
 body {
     background-color: #d9dcd6;
 }
@@ -81,7 +82,7 @@ img.float-right {
 }
 
 /* Main page content, .content is now a section tag instead of div */
-.content {
+section.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -97,17 +98,19 @@ img.float-right {
     color: #ffffff;
 }
 
+/* Images within main content cards */
 .card img {
     max-height: 200px;
 }
 
+/* Header within main content cards */
 .card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* Sidebar content, .benefits is now an aside tag instead of div */
-.benefits {
+aside.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -147,6 +150,7 @@ footer {
     text-align: center;
 }
 
+/* Footer header */
 footer h2 {
     font-size: 20px;
 }
