@@ -8,6 +8,17 @@ body {
     background-color: #d9dcd6;
 }
 
+/* all links on page */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* all paragraphs on page */
+p {
+    font-size: 16px;
+}
+
 /* used header tag to replace div.header */
 header {
     padding: 20px;
@@ -16,6 +27,7 @@ header {
     color: #ffffff;
 }
 
+/* company name in header */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -26,7 +38,7 @@ header h1 .seo {
     color: #b6b9b2;
 }
 
-/* used nav tag to replace div.nav */
+/* Page navigation, used nav tag to replace div.nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,24 +47,18 @@ header nav {
     font-size: 20px;
 }
 
+/* list of links within header nav */
 header nav ul {
     list-style-type: none;
 }
 
+/* individual link within nav list */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* large splash image on landing page */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,24 +68,45 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* Images floated to left */
+img.float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+/* Images floated to right */
+img.float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* .content is now a section tag instead of div */
+/* Main page content, .content is now a section tag instead of div */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* benefits is now an aside tag instead of div */
+/* Cards within main content, cards in the .content section renamed from div.XXX to article.card to condense code, .card related css rules moved up in style.css under their parent */
+.card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.card img {
+    max-height: 200px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sidebar content, .benefits is now an aside tag instead of div */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -98,35 +125,19 @@ p {
     color: #ffffff;
 }
 
+/* header within benefit side bar */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* image within benefit side bar */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* cards in the .content section renamed from div.XXX to article.card to condense code */
-.card {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.card img {
-    max-height: 200px;
-}
-
-.card h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* footer tag replaced div.footer */
 footer {
