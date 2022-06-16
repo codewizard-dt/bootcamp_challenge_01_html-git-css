@@ -25,6 +25,7 @@ Challenge for module 01
 
 ![sample landing page](sample.png)
 
-## Link to deployed site
+## Link to deployed site and repository
 
 [Live Horiseon page on github](https://codewizard-dt.github.io/bootcamp_challenge_01_html-git-css/)
+[Link to repository](https://github.com/codewizard-dt/bootcamp_challenge_01_html-git-css)
