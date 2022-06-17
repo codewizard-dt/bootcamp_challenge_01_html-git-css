@@ -8,6 +8,11 @@ Challenge for module 01
 
 **The client Horiseon** requested a refactor of their current website to enhance SEO by ensuring it meets **accessibility standards**
 
+## Link to deployed site and repository
+
+- [Live Horiseon page on github.io](https://codewizard-dt.github.io/bootcamp_challenge_01_html-git-css/)
+- [Link to repository](https://github.com/codewizard-dt/bootcamp_challenge_01_html-git-css)
+
 > Refactors made
 >
 > - Added `alt` attributes to `img` tags
@@ -24,8 +29,3 @@ Challenge for module 01
 ## Screenshot
 
 ![sample landing page](sample.png)
-
-## Link to deployed site and repository
-
-[Live Horiseon page on github](https://codewizard-dt.github.io/bootcamp_challenge_01_html-git-css/)
-[Link to repository](https://github.com/codewizard-dt/bootcamp_challenge_01_html-git-css)
